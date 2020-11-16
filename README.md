@@ -44,3 +44,7 @@ If you want to delete all notes, you can do so by pressing Clear All button in t
 After pressing Modify button or Add button you are transitioned to the second fragment. In the second fragment you can add or modify note's title and body. You save the note to the database by pressing Save button or you can cancel it by pressing Cancel button
 
 <img src="https://i.ibb.co/pdr9HBR/Screenshot-from-2020-11-16-17-48-59.png" width="340px">
+
+## TODO
+
+- Checkboxes
