@@ -34,8 +34,8 @@ Every note has two buttons next to it. You can modify single note by pressing bu
 
 If you want to delete all notes, you can do so by pressing Clear All button in the bottom left corner.
 
-<img src="https://i.ibb.co/wyyL9Mk/Screenshot-from-2020-11-16-17-48-32.png" >
-<img src="https://i.ibb.co/pvm28JR/Screenshot-from-2020-11-16-17-48-46.png" >
+<img src="https://i.ibb.co/wyyL9Mk/Screenshot-from-2020-11-16-17-48-32.png" width="340px">
+<img src="https://i.ibb.co/pvm28JR/Screenshot-from-2020-11-16-17-48-46.png" width="340px">
 
 
 
@@ -43,4 +43,4 @@ If you want to delete all notes, you can do so by pressing Clear All button in t
 
 After pressing Modify button or Add button you are transitioned to the second fragment. In the second fragment you can add or modify note's title and body. You save the note to the database by pressing Save button or you can cancel it by pressing Cancel button
 
-<img src="https://i.ibb.co/pdr9HBR/Screenshot-from-2020-11-16-17-48-59.png" >
+<img src="https://i.ibb.co/pdr9HBR/Screenshot-from-2020-11-16-17-48-59.png" width="340px">
