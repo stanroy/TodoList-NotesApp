@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/todoListFragment">
+
+    <fragment
+        android:id="@+id/todoListFragment"
+        android:name="com.stanroy.todolistapp.ui.todolist.TodoListFragment"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list">
+        <action
+            android:id="@+id/action_todoListFragment_to_todoNoteFragment"
+            app:destination="@id/todoNoteFragment" />
+        <action
+            android:id="@+id/action_todoListFragment_to_todoNoteFragment_withArgs"
+            app:destination="@id/todoNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoNoteFragment"
+        android:name="com.stanroy.todolistapp.ui.todonote.TodoNoteFragment"
+        android:label="fragment_todo_note"
+        tools:layout="@layout/fragment_todo_note">
+        <action
+            android:id="@+id/action_todoNoteFragment_to_todoListFragment"
+            app:destination="@id/todoListFragment"
+            app:popUpTo="@id/todoListFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="note"
+            app:argType="com.stanroy.todolistapp.data.database.entities.TodoNoteParcelable"
+            app:nullable="true" />
+    </fragment>
+</navigation>
